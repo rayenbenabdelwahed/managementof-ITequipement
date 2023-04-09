@@ -1,1 +1,3 @@
 # managementof-ITequipement
+
+##Project Notes
