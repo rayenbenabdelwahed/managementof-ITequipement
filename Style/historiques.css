@@ -1,0 +1,77 @@
+/* html {
+    height: 100%;
+  } */
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    /* background: linear-gradient(#888b92, #2e343b); */
+
+    background-image: url(ABW-2021-0042.jpg) ;
+    background-size: cover;
+  }
+  .content{
+    /* align-self: center; */
+    margin-left: 20%;
+    border-radius: 5%;
+}
+
+caption{
+    
+    color: white;
+    height: 60px;
+    width: 900px;
+    margin-top: 8%;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    letter-spacing: 6px;
+    font-size: larger;
+    font-weight: bolder;
+}
+caption:hover{
+    
+    color: yellow;
+   
+}
+th{
+    color: yellow;
+    height: 40px;
+    width: 178px;
+    margin-top: 10%;
+    font-size: small;
+    text-transform: uppercase;
+    background: rgba(179, 174, 174, 0.8);
+    box-sizing: border-box;
+    letter-spacing: 3px;
+    
+}
+td{
+    color: white;
+    height: 50px;
+    width: 178px;
+    margin-top: 10%;
+    font-size: small;
+    text-transform: uppercase;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+td a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bolder;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.more a:hover {
+    color: yellow;
+    
+}

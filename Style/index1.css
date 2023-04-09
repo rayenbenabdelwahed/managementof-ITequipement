@@ -1,0 +1,111 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-image: url(ABW-2021-0042.jpg) ;
+    background-size: cover;
+  }
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 700px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    
+  }
+  .content h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .content h2:hover {
+    color: yellow;
+  }
+ .content .choix {
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    
+ }
+ .content .membres,.addartcl{
+    background-color: rgba(44, 44, 44, 0.5);  
+    font-weight: bolder;
+    width: 100px;
+    height: 40px;
+    border-radius: 5%;
+   
+ }
+ .content .articles ,.adduser {
+    background-color: rgba(44, 44, 44, 0.5);
+    font-weight: bolder;
+    width: 100px;
+    height: 40px;
+    border-radius: 5%;
+    
+ }
+ .membres  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+ }
+ .membres a:hover{
+   
+    color: yellow;
+ }
+ .addartcl  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+ }
+ .addartcl  a:hover{
+   
+    color: yellow;
+ }
+ .articles  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+ }
+ .articles  a:hover{
+    
+    color: yellow;
+ }
+ .adduser  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+ }
+ .adduser  a:hover{
+   
+    color: yellow;
+ }
+  .disconnect {
+   background: rgba(0,0,0,.5);
+   border: none;
+  
+   display: inline-block;
+   padding: 10px 20px;
+   color: yellow;
+   font-size: 16px;
+   text-decoration: none;
+   text-transform: uppercase;
+   overflow: hidden;
+   transition: .5s;
+   margin-top: 40px;
+   letter-spacing: 4px
+ }
+ 
+ .disconnect:hover {
+   background: yellow;
+   color: black;
+   font-weight: bolder;
+   border-radius: 5px;
+  
+ }

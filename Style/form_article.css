@@ -1,0 +1,134 @@
+
+  header{
+    width: 86%;
+    height: 65px;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+   
+  }
+  .nav-bar ul {
+    display: flex;
+    
+  
+  }
+  .nav-bar ul a{
+    display: block;
+    color: yellow;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 25px;
+     border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.2s;
+    margin: 0 5px;
+  }
+  .nav-bar ul  a:hover{
+    background: yellow;
+   color: black;
+   font-weight: bolder;
+    
+  }
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    /* background: linear-gradient(#888b92, #2e343b); */
+    background-image: url(ABW-2021-0042.jpg) ;
+   background-size: cover;
+  }
+  .p1{
+    position: absolute;
+    top: 100%;
+    left: 42.5%;
+    color: azure;
+  }
+  
+  
+  .article-box {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .article-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  .article-box h2:hover {
+    color: yellow;
+  }
+  
+  .article-box .insert-box {
+    position: relative;
+  }
+  
+  .article-box .insert-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .article-box .insert-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .article-box .insert-box input:focus ~ label,
+  .article-box .insert-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: yellow;
+    font-size: 12px;
+  }
+  
+  .article-box form a .sub input {
+    background-color:rgba(0,0,0,.5); 
+    border: none;
+    position: relative;
+    left: 17%;
+    display: inline-block;
+    padding: 10px 20px;
+    color: yellow;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  
+  .article-box a .sub input:hover {
+    background: yellow;
+    color: black;
+    font-weight: bolder;
+    border-radius: 5px;
+   
+  }
+  
+  
+  
+  
